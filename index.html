@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2010 Toyota Corolla: A Long-Term Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* --- Global Styles & Typography --- */
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212; /* Dark background */
+        color: #f0f0f0;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      /* --- Header / Hero Section --- */
+      .hero {
+        background-color: #1f1f1f;
+        color: #ffffff;
+        padding: 60px 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      .hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+
+      .hero p {
+        font-size: 1.1em;
+        font-weight: 300;
+      }
+
+      /* --- Video Section --- */
+      .video-section {
+        padding: 40px 0;
+        text-align: center;
+      }
+      .upgrades-section .section-title {
+        text-align: center;
+      }
+
+      .section-title {
+        font-size: 1.8em;
+        color: #1abc9c; /* Accent color for dark theme */
+        margin-bottom: 25px;
+        font-weight: 700;
+      }
+
+      .video-container {
+        position: relative;
+        width: 80%;
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #222;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .video-container video {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+
+      .video-overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px;
+      }
+
+      /* --- Upgrades Section (Grid) --- */
+      .upgrades-section {
+        padding: 60px 0;
+        background-color: #1e1e1e;
+      }
+
+      .upgrade-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Explicit 2x2 grid */
+        gap: 40px;
+        padding: 0 10px;
+      }
+
+      .upgrade-item {
+        background-color: #2c2c2c;
+        padding: 30px 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+        border-left: 5px solid #1abc9c;
+      }
+
+      .upgrade-item h3 {
+        color: #f0f0f0;
+        margin-top: 0;
+        border-bottom: 2px solid #444;
+        padding-bottom: 10px;
+      }
+
+      .upgrade-item p {
+        margin: 15px 0 0;
+      }
+
+      /* --- Responsive Adjustments --- */
+      @media (max-width: 800px) {
+        .upgrade-grid {
+          grid-template-columns: 1fr; /* stack on small screens */
+        }
+        .container {
+          padding: 20px 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1>My Long-Term Project: The 2010 Toyota Corolla</h1>
+    </header>
+
+    <main class="container">
+      <section class="video-section">
+        <h2 class="section-title">Video Tour</h2>
+        <div class="video-container">
+          <!-- <video controls poster="placeholder-image.jpg">
+            <source src="your-car-tour-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> -->
+          
+        </div>
+      </section>
+
+      <section class="upgrades-section">
+        <h2 class="section-title">Project Upgrades & Modifications</h2>
+        <div class="upgrade-grid">
+          <div class="upgrade-item">
+            <h3>Interior Luxury & Comfort</h3>
+            <p>
+              The interior was upgraded with new leather seat covers, a wrapped
+              steering wheel, and a refreshed scent for a more comfortable ride.
+            </p>
+          </div>
+
+          <div class="upgrade-item">
+            <h3>Modern Entertainment System</h3>
+            <p>
+              A sleek touchscreen head unit with Apple CarPlay replaced the old
+              radio system to enhance the car's entertainment experience.
+            </p>
+          </div>
+
+          <div class="upgrade-item">
+            <h3>Safety & Convenience</h3>
+            <p>
+              A rear-view camera wired to the rear-view mirror display improves
+              convenience and safety when reversing.
+            </p>
+          </div>
+
+          <div class="upgrade-item">
+            <h3>Improved Visibility & Awareness</h3>
+            <p>
+              Convex blind-spot mirrors and restored headlights enhance
+              visibility and nighttime driving safety.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
